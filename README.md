@@ -68,25 +68,25 @@ The process began with **data cleaning and EDA**, followed by training multiple 
 
 | Model              | Train R² | Test R² | MAE   |
 |--------------------|----------|---------|-------|
-| Linear Regression  | 0.62     | 0.58    | 48k   |
-| Decision Tree      | 0.95     | 0.62    | 42k   |
-| Random Forest      | 0.92     | 0.75    | 35k   |
-| **CatBoost** ✅     | **0.94** | **0.82**| **28k** |
+| Linear Regression  | 0.64     | 0.64    | 44k   |
+| Decision Tree      | 1.0      | 0.64    | 38k   |
+| Random Forest      | 0.98     | 0.82    | 28k   |
+| **CatBoost** ✅     | **0.90** | **0.84**| **27k** |
 
 ---
 
 ## 📊 Visualizations (Sample)
 
 ### 1. Distribution of House Values
-![House Values Distribution](Images/HouseValue_Distribution.png)
+![House Values Distribution](Images/Distribution_of_House_Values.png)
 
 ### 2. Correlation Heatmap
 ![Correlation Heatmap](Images/Correlation_Heatmap.png)
 
 ### 3. Median Income vs Median House Value
 <p align="center">
-  <img src="Images/Income_vs_Price1.png" alt="Income vs Price 1" width="45%"/>
-  <img src="Images/Income_vs_Price2.png" alt="Income vs Price 2" width="45%"/>
+  <img src="Images/Median_Income.png" alt="Income vs Price 1" width="45%"/>
+  <img src="Images/Median_House_Value.png" alt="Income vs Price 2" width="45%"/>
 </p>
 
 ---
@@ -99,4 +99,6 @@ The process began with **data cleaning and EDA**, followed by training multiple 
 
 ---
 
-## 📂 Repository Structure
+## 📝 Author
+👤 **Abanoub Michel**  
+📍 Machine Learning Intern @ GTC  
